@@ -44,7 +44,7 @@ df = pd.read_csv('nobel.csv',delimiter=',') #by default delimiter is cooma.
 # print(df.age.median())
 # print(df.age.std())
 
-#ok now us nobel dataset
+#ok now nobel dataset
 # print(df.isnull)
 # print(df.isna().sum().sort_values(ascending=False))
 print(df.copy(deep='False'))
